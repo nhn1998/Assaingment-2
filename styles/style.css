@@ -1,0 +1,215 @@
+/* Google fonts */
+/* first part */
+body{
+    font-family: 'Cormorant SC', serif;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+}
+.main-header-section{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+    height:646px;
+    
+}
+.header-section{
+    display:flex;
+    background: #161616;
+    border-radius: 20px;
+}
+.header{
+    padding-top: 111px;
+    padding-left: 106px;
+    padding-bottom: 111px;
+}
+.written-content{
+    color:white;
+}
+.player h3{
+    color:white;
+    background-color:forestgreen;
+    width: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    animation: anim 1s ease-in-out 1s infinite alternate;
+    animation-play-state: running;
+}
+@keyframes anim{
+    from{
+        left: 0;
+    }
+    to{
+        left: 100px;
+    }
+}
+.written-content h1{
+    font-weight: 700;
+    font-size: 50px;
+    margin:0;
+}
+.button a{
+    text-decoration: none;
+    color:white;
+}
+.button{
+    background-color: red;
+    color:white;
+    width:100px;
+    padding:10px;
+    border-radius: 10px;
+}
+.button:hover{
+    background-image: linear-gradient(yellow,blue);
+}
+.fa-angle-right{
+    padding-left: 10px;
+}
+.banner-image img{
+    height:613px;
+    width:581px;
+}
+/* second section */
+
+.box{
+    background-color: #161616;
+    width: 280px;
+    height: 312px;
+    border-radius: 15px;
+    margin-left: 140px;
+    margin-top: 18px;
+}
+.links{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links .link-3 a{
+    color: white;
+}
+.link-1{
+    background-color: white;
+    width: 220px;
+    height: 64px;
+    margin-right: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-2{
+    background-color: white;
+    width: 220px;
+    height: 64px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-3{
+    background-color: red;
+    width: 220px;
+    height: 64px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* blog sections */
+.second-section{
+    display: flex;
+    margin-top: 130px;
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+.image img{
+    margin-top: 20px;
+    height:170px;
+    width: 220px;
+}
+.transfer-button{
+    margin-left: 0px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 80px;
+    padding: 10px;
+}
+.image-paragraph{
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.icon-2{
+    margin-left: 13px;
+}
+/* end of second section */
+/* footer section */
+footer{
+    background-color: black;
+   margin-top: 130px;
+    height: 400px;
+}
+.footer-heading{
+    color: white;
+    text-align: center;
+    padding-top: 120px; 
+}
+hr{
+    width: 900px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ending{
+    color:red;
+    display: flex;
+    padding-left: 270px;
+    padding-top: 10px;
+}
+.one{
+    padding: 20px;
+}
+.two{
+    padding: 20px;
+}
+.three{
+    padding: 20px;
+}
+.four{
+    padding: 20px;
+}
+.five{
+    padding: 20px;
+}
+.six{
+    padding: 20px;
+}
+.footer-icon{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
+.fa-facebook-square{
+    padding: 20px;
+}
+.fa-instagram{
+    padding: 20px;
+}
+.fa-twitter{
+    padding: 20px;
+}
